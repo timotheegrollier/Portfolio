@@ -16,9 +16,9 @@ const Navigation = () => {
         <ul>
           <li>
             {/* Local link  */}
-            <NavLink exact to="/" activeClassName="navActive">
+            {/* <NavLink exact to="/" activeClassName="navActive"> */}
               {/* Github/Build link  */}
-              {/* <NavLink to="/portfolio-react" activeClassName="navActive"> */}
+              <NavLink to="/newPortfolio" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>

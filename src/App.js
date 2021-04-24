@@ -12,9 +12,9 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           {/* Local Route  */}
-          <Route path="/" exact component={Home} />
+          {/* <Route path="/" exact component={Home} /> */}
 
-          {/* <Route path="/portfolio-react" component={Home} /> */}
+          <Route path="/newPortfolio" component={Home} />
           <Route path="/competences" component={Knowledges} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
