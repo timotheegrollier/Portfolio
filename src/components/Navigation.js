@@ -15,10 +15,12 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            {/* Local link  */}
+            {/* Local link
+             */}
             {/* <NavLink exact to="/" activeClassName="navActive"> */}
-              {/* Github/Build link  */}
-              <NavLink to="/newPortfolio" activeClassName="navActive">
+              {/* Github/Build link
+               */}
+              <NavLink to="/portfolio-react" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
@@ -40,6 +42,12 @@ const Navigation = () => {
             <NavLink exact to="/contact" activeClassName="navActive">
               <i className="fas fa-address-book"></i>
               <span>Contact</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/settings" activeClassName="navActive">
+              <i className="fas fa-address-book"></i>
+              <span>Settings</span>
             </NavLink>
           </li>
         </ul>

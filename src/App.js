@@ -5,34 +5,28 @@ import Portfolio from "./pages/Portfolio";
 import Knowledges from "./pages/Knowledges";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
+import Settings from "./pages/Settings";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Switch>
-          {/* Local Route  */}
+          {/* Local Route
+           */}
           {/* <Route path="/" exact component={Home} /> */}
 
-          <Route path="/newPortfolio" component={Home} />
+          {/* Build/Github Route
+           */}
+          <Route path="/portfolio-react" component={Home} />
+
           <Route path="/competences" component={Knowledges} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
+          <Route path="/settings" component={Settings} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
-
-      {/* LOCAL ROUTER */}
-      {/* <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/myPortfolio" component={Home} />
-          <Route path="/competences" component={Knowledges} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route component={NotFound} />
-        </Switch>
-      </BrowserRouter> */}
     </>
   );
 };
