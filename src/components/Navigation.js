@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import pic from "../media/timotek.jpg";
 
 const Navigation = () => {
+
+  // FUNCTIONS
+  let theme = localStorage.getItem("theme")
+
+
+useEffect(()=>{
+  let nav = document.getElementById("nav")
+  if(theme === "settingsBlock dark-theme"){
+    nav.classList.add("dark-theme-nav")
+  }
+else {
+  nav.classList.remove("dark-theme-nav")
+}
+})
+// 
+
+
+
   return (
-    <div className="sidebar">
+    <div className="sidebar" id="nav">
       <div className="id">
         <div className="id-content">
           <img src={pic} alt="profil-pic" />
