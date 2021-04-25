@@ -13,7 +13,7 @@ $black: #333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$minHeight: 95vh;
+$minHeight: 98vh;
 
 @mixin verticalCenter {
   display: flex;
@@ -76,4 +76,8 @@ a {
       margin-left: 0 i !important;
     }
   }
+}
+
+.dark-theme {
+  background: rgb(39, 38, 38) !important;
 }

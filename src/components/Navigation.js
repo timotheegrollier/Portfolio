@@ -46,7 +46,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink exact to="/settings" activeClassName="navActive">
-              <i className="fas fa-address-book"></i>
+              <i className="fas fa-cog"></i>
               <span>Settings</span>
             </NavLink>
           </li>
