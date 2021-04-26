@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Settings from "./pages/Settings";
 
 const App = () => {
+  
   return (
     <>
       <BrowserRouter>
@@ -18,7 +19,7 @@ const App = () => {
 
           {/* Build/Github Route
            */}
-          <Route path="/portfolio-react" component={Home} />
+          <Route path="/newPortfolio" component={Home} />
 
           <Route path="/competences" component={Knowledges} />
           <Route path="/portfolio" component={Portfolio} />

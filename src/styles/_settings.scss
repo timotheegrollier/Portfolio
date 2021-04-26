@@ -35,6 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 850px) {
+    padding: 8px;
     display: block;
   }
 }
@@ -76,4 +77,13 @@ a {
       margin-left: 0 i !important;
     }
   }
+}
+
+.dark-theme {
+  background: linear-gradient(130deg, rgb(31, 31, 31) 35%, transparent 100%) !important;
+  color: white;
+}
+.dark-theme-nav {
+  background: rgb(31, 31, 31) !important;
+  color: white;
 }

@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import pic from "../media/timotek.jpg";
 
 const Navigation = () => {
+
+  // FUNCTIONS
+  let theme = localStorage.getItem("theme")
+
+
+useEffect(()=>{
+  let nav = document.getElementById("nav")
+  if(theme === "settingsBlock dark-theme"){
+    nav.classList.add("dark-theme-nav")
+  }
+else {
+  nav.classList.remove("dark-theme-nav")
+}
+})
+// 
+
+
+
   return (
-    <div className="sidebar">
+    <div className="sidebar" id="nav">
       <div className="id">
         <div className="id-content">
           <img src={pic} alt="profil-pic" />
@@ -20,7 +38,7 @@ const Navigation = () => {
             {/* <NavLink exact to="/" activeClassName="navActive"> */}
               {/* Github/Build link
                */}
-              <NavLink to="/portfolio-react" activeClassName="navActive">
+              <NavLink to="/newPortfolio" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
@@ -46,7 +64,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink exact to="/settings" activeClassName="navActive">
-              <i className="fas fa-address-book"></i>
+              <i className="fas fa-cog"></i>
               <span>Settings</span>
             </NavLink>
           </li>
