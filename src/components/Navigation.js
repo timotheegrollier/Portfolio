@@ -3,23 +3,18 @@ import { NavLink } from "react-router-dom";
 import pic from "../media/timotek.jpg";
 
 const Navigation = () => {
-
   // FUNCTIONS
-  let theme = localStorage.getItem("theme")
+  let theme = localStorage.getItem("theme");
 
-
-useEffect(()=>{
-  let nav = document.getElementById("nav")
-  if(theme === "settingsBlock dark-theme"){
-    nav.classList.add("dark-theme-nav")
-  }
-else {
-  nav.classList.remove("dark-theme-nav")
-}
-})
-// 
-
-
+  useEffect(() => {
+    let nav = document.getElementById("nav");
+    if (theme === "settingsBlock dark-theme") {
+      nav.classList.add("dark-theme-nav");
+    } else {
+      nav.classList.remove("dark-theme-nav");
+    }
+  });
+  //
 
   return (
     <div className="sidebar" id="nav">
@@ -36,9 +31,9 @@ else {
             {/* Local link
              */}
             {/* <NavLink exact to="/" activeClassName="navActive"> */}
-              {/* Github/Build link
-               */}
-              <NavLink to="/newPortfolio" activeClassName="navActive">
+            {/* Github/Build link
+             */}
+            <NavLink exact to="/" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
@@ -74,12 +69,20 @@ else {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="https://github.com/timotheegrollier">
+            <a
+              href="https://github.com/timotheegrollier"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-github"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/timoth%C3%A9e-grollier-b95291204/">
+            <a
+              href="https://www.linkedin.com/in/timoth%C3%A9e-grollier-b95291204/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
