@@ -7,7 +7,7 @@ const NotFound = () => {
       <div className="notFoundContent">
         <img src="./media/404.gif" alt="404" />
         <h3>Désolé cette page n'existe pas !</h3>
-        <NavLink exact to="/newPortfolio">
+        <NavLink exact to="/">
           <i className="fas fa-home"></i>
           <span>Accueil</span>
         </NavLink>

@@ -24,7 +24,7 @@
     .content {
       position: absolute;
       top: 20%;
-      left: 13%;
+      left: 10%;
       font-family: $font-1;
 
       h1 {
@@ -65,18 +65,18 @@
   }
   .home {
     display: block;
+    h1 {
+      font-size: 1.5rem !important;
+    }
+    h2 {
+      font-size: 0.8rem !important;
+    }
   }
 }
 @media screen and (max-width: 580px) {
   .homeContent {
     &:after {
       background: url("../../media/K5I1.gif") no-repeat 60% 50% center/cover !important;
-    }
-    h1 {
-      font-size: 2rem !important;
-    }
-    h2 {
-      font-size: 0.8rem !important;
     }
   }
 }
