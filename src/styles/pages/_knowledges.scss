@@ -1,0 +1,9 @@
+.knowledges {
+  display: flex;
+}
+
+@media screen and (max-width: 850px) {
+  .knowledges {
+    display: block;
+  }
+}

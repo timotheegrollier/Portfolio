@@ -13,7 +13,7 @@ $black: #333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$minHeight: 95vh;
+$minHeight: 98vh;
 
 @mixin verticalCenter {
   display: flex;
@@ -35,7 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 850px) {
-    padding: 8px;
+    padding: 5px;
     display: block;
   }
 }
@@ -80,7 +80,11 @@ a {
 }
 
 .dark-theme {
-  background: linear-gradient(130deg, rgb(31, 31, 31) 35%, transparent 100%) !important;
+  background: linear-gradient(
+    130deg,
+    rgb(31, 31, 31) 35%,
+    transparent 100%
+  ) !important;
   color: white;
 }
 .dark-theme-nav {
