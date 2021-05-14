@@ -1,14 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const Hobbies = () => {
-  let theme = localStorage.getItem("theme");
-  useEffect(() => {
-    let hobbies = document.getElementById("hob");
-    if (theme === "settingsBlock dark-theme") {
-      hobbies.classList.add("dark-theme");
-    }
-  });
-
   return (
     <div className="hobbies" id="hob">
       <h3>Intérêts</h3>
