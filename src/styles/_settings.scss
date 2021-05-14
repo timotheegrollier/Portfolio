@@ -86,7 +86,25 @@ a {
     transparent 100%
   ) !important;
   color: white;
+  span {
+    color: white;
+  }
+  h4 {
+    color: $color-2 !important;
+  }
+  .fas {
+    color: white;
+  }
+  .languagesList {
+    li {
+      color: $color-3 !important;
+    }
+    .progressBar:after {
+      background: $color-1 !important;
+    }
+  }
 }
+
 .dark-theme-nav {
   background: rgb(31, 31, 31) !important;
   color: white;

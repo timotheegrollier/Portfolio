@@ -20,22 +20,21 @@ class componentName extends Component {
   render() {
     // State cache de fonctions rcc
     // Transform le this.state.languages en languages
+
     let { languages, frameworks } = this.state;
 
     return (
-      <div>
-        <div className="languagesFrameworks">
-          <ProgressBar
-            languages={languages}
-            className="languagesDisplay"
-            title="languages"
-          />
-          <ProgressBar
-            languages={frameworks}
-            className="frameworkDisplay"
-            title="frameworks & bibliothèques"
-          />
-        </div>
+      <div className="languagesFrameworks" id="lang">
+        <ProgressBar
+          languages={languages}
+          className="languagesDisplay"
+          title="languages"
+        />
+        <ProgressBar
+          languages={frameworks}
+          className="frameworkDisplay"
+          title="frameworks & bibliothèques"
+        />
       </div>
     );
   }
