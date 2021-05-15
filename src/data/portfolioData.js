@@ -4,9 +4,10 @@ export const portfolioData = [
     name: "La montagne",
     languages: ["html", "css"],
     languagesIcons: ["fab fa-html5", "fab fa-css3-alt"],
-    source: "http://www.github.com",
-    info: "Simple intégration HTML CSS",
+    source: "https://github.com/timotheegrollier/montagne",
+    info: "Simple intégration HTML CSS Responsive",
     picture: "./media/4545.png",
+    lien:"https://timotheegrollier.github.io/montagne/"
   },
   {
     id: 2,
