@@ -30,7 +30,7 @@ render() {
   if(this.state.showInfo){
     body.style.overflow="hidden";
 
-    // Pour remettre le scroll si on quitte zarbi
+    // Pour remettre le scroll si on quitte avec le bouton retour
     window.onhashchange = ()=>{
     body.style.overflow="initial"
     }
