@@ -9,9 +9,15 @@ const Knowledges = () => {
   let theme = localStorage.getItem("theme");
   useEffect(() => {
     let lang = document.getElementById("lang");
-    console.log(lang);
+    let otherSkills = document.getElementById("oth");
+    let experiences = document.getElementById("xp");
+    let hobbies = document.getElementById("hob");
+
     if (theme === "settingsBlock dark-theme") {
+      experiences.classList.add("dark-theme");
       lang.classList.add("dark-theme");
+      hobbies.classList.add("dark-theme");
+      otherSkills.classList.add("dark-theme");
     }
   });
 
