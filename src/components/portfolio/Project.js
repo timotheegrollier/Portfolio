@@ -2,22 +2,23 @@ import React, { Component } from "react";
 
 class Project extends Component {
 state = {
-  showInfo: false
+  showInfo: false,
 }
 
 handleInfo = ()=> {
   this.setState({
-    showInfo:!this.state.showInfo
+    showInfo:!this.state.showInfo,
   })
 }
+
+
+
+
 
 
   render() {
     console.log(this.props);
     let { name, languagesIcons, source, info, picture,lien } = this.props.item;
-
-
-
     return (
       <div className="project">
         <div className="icons">
@@ -40,9 +41,9 @@ handleInfo = ()=> {
                   <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source</a>
                   </div>
                 </div>
+<a href={lien}><img src={picture} alt="See the project" /></a>
 <p className="text">{info}</p>
 
-<a href={lien}><img src={picture} alt="See the project" /></a>
 
 
                 <div className="button return" onClick={this.handleInfo}>Retourner sur la page</div>

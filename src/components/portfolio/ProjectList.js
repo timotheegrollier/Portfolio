@@ -11,10 +11,10 @@ class ProjectList extends Component {
     let { projects } = this.state;
 
     return (
-      <div className="portfolioContent">
+      <div className="portfolioContent" >
         <ul className="radioDisplay"></ul>
 
-        <div className="projects">
+        <div className="projects" >
           {projects.map((item) => {
             return <Project key={item.id} item={item} />;
           })}
