@@ -118,7 +118,7 @@
       font-family: $font-2;
       font-size: 1.65rem;
       @include verticalCenter;
-      justify-content: left;
+      justify-content: center !important;
     }
     img {
       grid-area: 3;
@@ -250,6 +250,7 @@
 
       img {
         height: 100% !important;
+        width: 80% !important;
       }
     }
   }

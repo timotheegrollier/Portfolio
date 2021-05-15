@@ -107,5 +107,13 @@ a {
 }
 
 .modal {
-  overflow-y: hidden;
+  background: $black !important;
+  .head {
+    #mod-name {
+      color: white !important;
+    }
+  }
+  p {
+    color: white !important;
+  }
 }

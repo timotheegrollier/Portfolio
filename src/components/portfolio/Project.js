@@ -3,6 +3,10 @@ import React, { Component } from "react";
 class Project extends Component {
 state = {
   showInfo: false,
+  theme:localStorage.getItem("theme"),
+  // modal est la class de la modal elle est dynamique selon le theme
+  modal:"infosContent",
+  body:document.body,
 }
 
 handleInfo = ()=> {
@@ -12,11 +16,28 @@ handleInfo = ()=> {
 }
 
 
+render() {
 
+  
+  let {modal,theme,body} = this.state 
+  
+ 
 
+  if (theme === "settingsBlock dark-theme"){
+    modal = "infosContent modal"
+  }
+ 
+  if(this.state.showInfo){
+    body.style.overflow="hidden";
 
-
-  render() {
+    // Pour remettre le scroll si on quitte zarbi
+    window.onhashchange = ()=>{
+    body.style.overflow="initial"
+    }
+  }else{
+    body.style.overflow="initial"
+  }
+   
     console.log(this.props);
     let { name, languagesIcons, source, info, picture,lien } = this.props.item;
     return (
@@ -34,9 +55,9 @@ handleInfo = ()=> {
         {
           this.state.showInfo && (
             <div className="showInfos">
-              <div className="infosContent">
+              <div className={modal}>
                 <div className="head">
-                  <h2>{name}</h2>
+                  <h2 id="mod-name">{name}</h2>
                   <div className="sourceCode">
                   <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source</a>
                   </div>
@@ -51,6 +72,7 @@ handleInfo = ()=> {
             </div>
           )
         }
+        
       </div>
     );
   }

@@ -4,7 +4,6 @@ import ProjectList from "../components/portfolio/ProjectList";
 
 const Portfolio = () => {
 let theme = localStorage.getItem("theme")
-
 useEffect(()=>{
   let works = document.getElementsByClassName("project")
   if (theme === "settingsBlock dark-theme") {
