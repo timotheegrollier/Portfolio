@@ -23,7 +23,7 @@ export const portfolioData = [
     id: 3,
     name: "My-blog",
     languages: ["php"],
-    languagesIcons: ["fab fa-js", "fab fa-php", "fab fa-css3-alt"],
+    languagesIcons: ["fab fa-php"],
     source: "https://github.com/timotheegrollier/myblog",
     info: "Mon premier CRUD réalisé avec PHP/MySQL",
     picture: "./media/my_blog.png",
