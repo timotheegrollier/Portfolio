@@ -23,7 +23,7 @@
     box-shadow: $shadow;
 
     li {
-      color: $color-3;
+      color: $color-2;
       font-size: 1.1rem;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -44,7 +44,7 @@
           height: 0.9rem;
           width: 0.9rem;
           border-radius: 50%;
-          border: 2px solid $color-1;
+          border: 2px solid $color-2;
           cursor: pointer;
           transition: 0.3s;
         }
@@ -59,7 +59,7 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-1;
+          background: $color-3;
           transform: scale(0);
           transform-origin: center;
         }
@@ -70,7 +70,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-1;
+        color: $color-3;
       }
       label {
         cursor: pointer;
@@ -88,7 +88,7 @@
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
-      width: 32%;
+      width: 31%;
       max-height: 50%;
       padding: 0.3rem;
       box-shadow: $shadow;
@@ -118,7 +118,7 @@
       font-family: $font-2;
       font-size: 1.65rem;
       @include verticalCenter;
-      justify-content: left;
+      justify-content: center !important;
     }
     img {
       grid-area: 3;
@@ -139,12 +139,12 @@
       @include verticalCenter;
       transition: 0.2s;
 
-      // &:hover {
-      //   transform: scale(1.1);
-      // }
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     .showInfos {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       bottom: 0;
@@ -181,6 +181,7 @@
       h2 {
         text-align: left;
         margin-bottom: 1rem;
+        color: $black !important;
       }
       .button {
         cursor: pointer;
@@ -191,12 +192,18 @@
         transition: 0.2s;
 
         &:hover {
-          background: $color-1;
+          background: $color-2;
         }
+      }
+      img {
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
       .text {
         text-align: justify;
         padding-bottom: 1rem;
+        color: $black;
       }
       .return {
         margin: 1rem auto;
@@ -220,6 +227,11 @@
         font-size: 1rem;
       }
     }
+  }
+}
+
+@media (max-width: 650px) {
+  .showInfos {
     .infosContent {
       width: 100% !important;
     }
@@ -238,6 +250,31 @@
 
       img {
         height: 100% !important;
+        width: 80% !important;
+      }
+    }
+  }
+}
+@media (max-width: 385px) {
+  .showInfos {
+    .infosContent {
+      .return {
+        width: 100% !important;
+      }
+      .head {
+        flex-direction: column;
+        margin-bottom: 20px !important;
+      }
+      h2 {
+        font-size: 1.2rem;
+        text-align: center !important;
+      }
+      a {
+        font-size: 0.6rem;
+      }
+      .button {
+        padding: 0.5rem !important;
+        font-size: 0.6rem;
       }
     }
   }

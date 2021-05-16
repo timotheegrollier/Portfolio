@@ -7,6 +7,7 @@ import Navigation from "../components/Navigation";
 
 const Knowledges = () => {
   let theme = localStorage.getItem("theme");
+  
   useEffect(() => {
     let lang = document.getElementById("lang");
     let otherSkills = document.getElementById("oth");
@@ -19,8 +20,10 @@ const Knowledges = () => {
       hobbies.classList.add("dark-theme");
       otherSkills.classList.add("dark-theme");
     }
+    
   });
 
+  
   return (
     <div className="knowledges">
       <Navigation />

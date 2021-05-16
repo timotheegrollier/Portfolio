@@ -7,18 +7,18 @@ const Hobbies = () => {
       <ul>
         <li className="hobby">
           <i className="fas fa-music">
-            <span>Guitare/M.A.O</span>
           </i>
+            <span>Guitare/M.A.O</span>
         </li>
         <li className="hobby">
           <i className="fas fa-water">
-            <span>Bodyboard</span>
           </i>
+            <span>Bodyboard</span>
         </li>
         <li className="hobby">
           <i className="fas fa-hat-wizard">
-            <span>Jeux-vidéo</span>
           </i>
+            <span>Jeux-vidéo</span>
         </li>
       </ul>
     </div>
