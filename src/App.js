@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import Settings from "./pages/Settings";
 
 const App = () => {
-  
   return (
     <>
       {/* Hashrouter POUR GITHUB */}
