@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/newPortfolio/static/css/main.a74e5da6.chunk.css",
+    "main.css": "/newPortfolio/static/css/main.43c5b877.chunk.css",
     "main.js": "/newPortfolio/static/js/main.6d1856f9.chunk.js",
     "main.js.map": "/newPortfolio/static/js/main.6d1856f9.chunk.js.map",
     "runtime-main.js": "/newPortfolio/static/js/runtime-main.eb14f7a2.js",
@@ -10,7 +10,7 @@
     "static/js/3.45523360.chunk.js": "/newPortfolio/static/js/3.45523360.chunk.js",
     "static/js/3.45523360.chunk.js.map": "/newPortfolio/static/js/3.45523360.chunk.js.map",
     "index.html": "/newPortfolio/index.html",
-    "static/css/main.a74e5da6.chunk.css.map": "/newPortfolio/static/css/main.a74e5da6.chunk.css.map",
+    "static/css/main.43c5b877.chunk.css.map": "/newPortfolio/static/css/main.43c5b877.chunk.css.map",
     "static/js/2.892a89f9.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.892a89f9.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/newPortfolio/static/media/K5I1.42be62bf.gif",
     "static/media/timotek.c77d7872.jpg": "/newPortfolio/static/media/timotek.c77d7872.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb14f7a2.js",
     "static/js/2.892a89f9.chunk.js",
-    "static/css/main.a74e5da6.chunk.css",
+    "static/css/main.43c5b877.chunk.css",
     "static/js/main.6d1856f9.chunk.js"
   ]
 }
