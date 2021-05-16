@@ -23,7 +23,7 @@
     box-shadow: $shadow;
 
     li {
-      color: $color-3;
+      color: $color-2;
       font-size: 1.1rem;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -44,7 +44,7 @@
           height: 0.9rem;
           width: 0.9rem;
           border-radius: 50%;
-          border: 2px solid $color-1;
+          border: 2px solid $color-2;
           cursor: pointer;
           transition: 0.3s;
         }
@@ -59,7 +59,7 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-1;
+          background: $color-3;
           transform: scale(0);
           transform-origin: center;
         }
@@ -70,7 +70,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-1;
+        color: $color-3;
       }
       label {
         cursor: pointer;
