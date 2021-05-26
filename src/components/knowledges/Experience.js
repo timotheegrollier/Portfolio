@@ -7,10 +7,12 @@ const Experience = () => {
       <div className="exp1">
         <h4>Caissier - Super U Lacanau</h4>
         <h5>2017-2019</h5>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-          debitis ipsam soluta quaerat modi assumenda?
-        </p>
+        <ul>
+          <li>Saison d'été forte affluence</li>
+          <li>Tenir une caisse</li>
+          <li>Accueil/Conseil</li>
+          <li>Inventaire</li>
+        </ul>
       </div>
     </div>
   );

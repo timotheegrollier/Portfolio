@@ -13,7 +13,7 @@ class Languages extends Component {
       { id: 1, value: "React", xp: 0.6 },
       { id: 2, value: "Bootstrap", xp: 1 },
       { id: 3, value: "Sass", xp: 1 },
-      { id: 4, value: "Material", xp: 0.2 },
+      { id: 4, value: "Symfony", xp: 0.2 },
     ],
   };
 

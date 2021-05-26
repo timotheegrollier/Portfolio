@@ -82,6 +82,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    max-height: 80vh;
 
     .project {
       background: $color-2;
@@ -116,7 +117,7 @@
     h3 {
       grid-area: 2;
       font-family: $font-2;
-      font-size: 1.65rem;
+      font-size: 1.15rem;
       @include verticalCenter;
       justify-content: center !important;
     }
@@ -152,7 +153,9 @@
       background: rgba(0, 0, 0, 0.507);
       animation: popup 0.3s ease forwards;
       transform-origin: center;
-
+      img {
+        height: 200px !important;
+      }
       .infosContent {
         position: relative;
         top: 25%;

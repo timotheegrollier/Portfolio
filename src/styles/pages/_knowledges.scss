@@ -124,9 +124,22 @@
     color: $color-3;
     padding: 0.5rem 0 0.5rem 1rem;
   }
-  p {
+  ul {
     text-align: justify;
     padding: 0 1rem;
+    li {
+      position: relative;
+      text-align: justify;
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f00c";
+        color: green;
+        margin-right: 10px;
+        // position: absolute;
+        // right: 10px;
+      }
+    }
   }
   .exp-1 {
     grid-area: 2;
@@ -152,6 +165,7 @@
 
       i {
         color: $color-3;
+        padding-right: 15px;
       }
     }
   }

@@ -40,20 +40,22 @@ export const portfolioData = [
   },
   {
     id: 5,
-    name: "repudiante.com",
+    name: "Ganesh",
     languages: ["javascript", "css"],
     languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
-    source: "http://www.github.com",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? ",
-    picture: "./media/project5.JPG",
+    source: "https://github.com/timotheegrollier/ganesh",
+    info: "Création et intégration d'une homepage en MobileFirst",
+    picture: "./media/ganesh.png",
+    lien:"https://timotheegrollier.github.io/ganesh/"
   },
   {
     id: 6,
-    name: "test.io",
-    languages: ["javascript", "react", "css"],
-    languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-css3-alt"],
-    source: "http://www.github.com",
-    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil?",
-    picture: "./media/project6.JPG",
+    name: "RandomUser",
+    languages: ["javascript", "css"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
+    source: "https://github.com/timotheegrollier/randomUserAjax",
+    info: "Appel de l'api RandomUser en ajax + requête par choix",
+    picture: "./media/randomuser.png",
+    lien:"https://timotheegrollier.github.io/randomUserAjax/"
   },
 ];
