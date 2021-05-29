@@ -73,11 +73,7 @@ a {
 }
 
 .dark-theme {
-  background: linear-gradient(
-    130deg,
-    rgb(31, 31, 31) 35%,
-    transparent 100%
-  ) !important;
+  background: linear-gradient(130deg, rgb(31, 31, 31) 35%, transparent 100%) !important;
   color: white;
   span {
     color: white;

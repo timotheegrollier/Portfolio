@@ -154,7 +154,7 @@
       animation: popup 0.3s ease forwards;
       transform-origin: center;
       img {
-        height: 200px !important;
+        height: 150px !important;
       }
       .infosContent {
         position: relative;
@@ -260,7 +260,7 @@
     }
   }
 }
-@media (max-width: 385px) {
+@media (max-width: 455px) {
   .showInfos {
     .infosContent {
       .return {
@@ -282,5 +282,14 @@
         font-size: 0.6rem;
       }
     }
+  }
+}
+
+@media (max-height: 400px) {
+  .radioDisplay {
+    z-index: -3 !important;
+  }
+  .infosContent {
+    top: 0 !important;
   }
 }
