@@ -35,7 +35,7 @@ class Project extends Component {
       body.style.overflow = "initial";
     }
 
-    console.log(this.props);
+    //console.log(this.props);
     let { name, languagesIcons, source, info, picture, lien } = this.props.item;
     return (
       <div className={project}>

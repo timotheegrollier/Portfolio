@@ -9,7 +9,8 @@ const Experience = () => {
         <h5>Juin/Septembre 2021</h5>
         <ul>
           <li>Création de bloc WordPress JSX</li>
-          <li>Wordpress</li>
+          <li>Intégration Wordpress</li>
+	  <li>Symfony</li>
         </ul>
       </div>
       <div className="exp2">

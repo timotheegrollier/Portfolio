@@ -31,7 +31,7 @@ export const portfolioData = [
   {
     id: 4,
     name: "PasswordGenerator",
-    languages: ["javascript", "css"],
+    languages: ["javascript"],
     languagesIcons: ["fab fa-html5", "fab fa-js", "css3-alt"],
     source: "https://github.com/timotheegrollier/PasswordGenerator",
     info: "Application génératrice de mot de passe / PWA",
