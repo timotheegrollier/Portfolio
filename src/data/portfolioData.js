@@ -68,4 +68,14 @@ export const portfolioData = [
     picture: "./media/mvcave1.png",
     lien: "http://mycave.alwaysdata.net//",
   },
+  {
+    id: 8,
+    name: "ReactCountries",
+    languages: ["react"],
+    languagesIcons: ["fab fa-react", "fab fa-js" ,"fab fa-css3-alt"],
+    source: "https://github.com/timotheegrollier/ReactCountries",
+    info: "Appel d'api en ReactJS + Crud dynamique sans redux sur la page news + hébergement",
+    picture: "./media/ReactCountries.png",
+    lien: "https://reactjscountries.herokuapp.com/",
+  },
 ];
