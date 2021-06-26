@@ -10,15 +10,15 @@ const Experience = () => {
         <ul>
           <li>Création de bloc WordPress JSX</li>
           <li>Intégration Wordpress</li>
-	  <li>Symfony</li>
+          <li>Mise a jour de plugins Wordpress Front/Back</li>
+	        <li>Symfony</li>
         </ul>
       </div>
       <div className="exp2">
         <h4>Caissier - Super U Lacanau</h4>
         <h5>2017-2019</h5>
         <ul>
-          <li>Saison d'été forte affluence</li>
-          <li>Tenir une caisse</li>
+          <li>Gérer la caisse</li>
           <li>Accueil/Conseil</li>
           <li>Inventaire</li>
         </ul>
