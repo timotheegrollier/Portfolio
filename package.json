@@ -2,7 +2,7 @@
   "name": "portfolio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timotheegrollier.github.io/newPortfolio",
+  "homepage": "https://timotheegrollier.github.io/Portfolio",
   "en local changez pour": "http://localhost/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",

@@ -20,15 +20,6 @@ export const portfolioData = [
     lien: "https://timotheegrollier.github.io/gamingcampus",
   },
   {
-    id: 3,
-    name: "My-blog",
-    languages: ["php"],
-    languagesIcons: ["fab fa-php", "css3-alt"],
-    source: "https://github.com/timotheegrollier/myblog",
-    info: "Mon premier CRUD réalisé avec PHP/MySQL",
-    picture: "./media/my_blog.png",
-  },
-  {
     id: 4,
     name: "PasswordGenerator",
     languages: ["javascript"],
