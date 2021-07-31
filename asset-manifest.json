@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/newPortfolio/static/css/main.2387d5e2.chunk.css",
-    "main.js": "/newPortfolio/static/js/main.c62f0e95.chunk.js",
-    "main.js.map": "/newPortfolio/static/js/main.c62f0e95.chunk.js.map",
-    "runtime-main.js": "/newPortfolio/static/js/runtime-main.cafac41f.js",
-    "runtime-main.js.map": "/newPortfolio/static/js/runtime-main.cafac41f.js.map",
-    "static/js/2.8c7028b3.chunk.js": "/newPortfolio/static/js/2.8c7028b3.chunk.js",
-    "static/js/2.8c7028b3.chunk.js.map": "/newPortfolio/static/js/2.8c7028b3.chunk.js.map",
-    "static/js/3.598179c1.chunk.js": "/newPortfolio/static/js/3.598179c1.chunk.js",
-    "static/js/3.598179c1.chunk.js.map": "/newPortfolio/static/js/3.598179c1.chunk.js.map",
-    "index.html": "/newPortfolio/index.html",
-    "static/css/main.2387d5e2.chunk.css.map": "/newPortfolio/static/css/main.2387d5e2.chunk.css.map",
-    "static/js/2.8c7028b3.chunk.js.LICENSE.txt": "/newPortfolio/static/js/2.8c7028b3.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/newPortfolio/static/media/shape.134c6173.svg",
-    "static/media/timotek.c77d7872.jpg": "/newPortfolio/static/media/timotek.c77d7872.jpg"
+    "main.css": "/Portforlio/static/css/main.d544b949.chunk.css",
+    "main.js": "/Portforlio/static/js/main.c62f0e95.chunk.js",
+    "main.js.map": "/Portforlio/static/js/main.c62f0e95.chunk.js.map",
+    "runtime-main.js": "/Portforlio/static/js/runtime-main.c7c3dfc5.js",
+    "runtime-main.js.map": "/Portforlio/static/js/runtime-main.c7c3dfc5.js.map",
+    "static/js/2.8c7028b3.chunk.js": "/Portforlio/static/js/2.8c7028b3.chunk.js",
+    "static/js/2.8c7028b3.chunk.js.map": "/Portforlio/static/js/2.8c7028b3.chunk.js.map",
+    "static/js/3.598179c1.chunk.js": "/Portforlio/static/js/3.598179c1.chunk.js",
+    "static/js/3.598179c1.chunk.js.map": "/Portforlio/static/js/3.598179c1.chunk.js.map",
+    "index.html": "/Portforlio/index.html",
+    "static/css/main.d544b949.chunk.css.map": "/Portforlio/static/css/main.d544b949.chunk.css.map",
+    "static/js/2.8c7028b3.chunk.js.LICENSE.txt": "/Portforlio/static/js/2.8c7028b3.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Portforlio/static/media/shape.134c6173.svg",
+    "static/media/timotek.c77d7872.jpg": "/Portforlio/static/media/timotek.c77d7872.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cafac41f.js",
+    "static/js/runtime-main.c7c3dfc5.js",
     "static/js/2.8c7028b3.chunk.js",
-    "static/css/main.2387d5e2.chunk.css",
+    "static/css/main.d544b949.chunk.css",
     "static/js/main.c62f0e95.chunk.js"
   ]
 }
