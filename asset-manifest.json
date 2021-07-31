@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portforlio/static/css/main.d544b949.chunk.css",
-    "main.js": "/Portforlio/static/js/main.c62f0e95.chunk.js",
-    "main.js.map": "/Portforlio/static/js/main.c62f0e95.chunk.js.map",
-    "runtime-main.js": "/Portforlio/static/js/runtime-main.c7c3dfc5.js",
-    "runtime-main.js.map": "/Portforlio/static/js/runtime-main.c7c3dfc5.js.map",
-    "static/js/2.8c7028b3.chunk.js": "/Portforlio/static/js/2.8c7028b3.chunk.js",
-    "static/js/2.8c7028b3.chunk.js.map": "/Portforlio/static/js/2.8c7028b3.chunk.js.map",
-    "static/js/3.598179c1.chunk.js": "/Portforlio/static/js/3.598179c1.chunk.js",
-    "static/js/3.598179c1.chunk.js.map": "/Portforlio/static/js/3.598179c1.chunk.js.map",
-    "index.html": "/Portforlio/index.html",
-    "static/css/main.d544b949.chunk.css.map": "/Portforlio/static/css/main.d544b949.chunk.css.map",
-    "static/js/2.8c7028b3.chunk.js.LICENSE.txt": "/Portforlio/static/js/2.8c7028b3.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/Portforlio/static/media/shape.134c6173.svg",
-    "static/media/timotek.c77d7872.jpg": "/Portforlio/static/media/timotek.c77d7872.jpg"
+    "main.css": "/Portfolio/static/css/main.792649cf.chunk.css",
+    "main.js": "/Portfolio/static/js/main.c62f0e95.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.c62f0e95.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.d013c359.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d013c359.js.map",
+    "static/js/2.8c7028b3.chunk.js": "/Portfolio/static/js/2.8c7028b3.chunk.js",
+    "static/js/2.8c7028b3.chunk.js.map": "/Portfolio/static/js/2.8c7028b3.chunk.js.map",
+    "static/js/3.598179c1.chunk.js": "/Portfolio/static/js/3.598179c1.chunk.js",
+    "static/js/3.598179c1.chunk.js.map": "/Portfolio/static/js/3.598179c1.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.792649cf.chunk.css.map": "/Portfolio/static/css/main.792649cf.chunk.css.map",
+    "static/js/2.8c7028b3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8c7028b3.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/Portfolio/static/media/shape.134c6173.svg",
+    "static/media/timotek.c77d7872.jpg": "/Portfolio/static/media/timotek.c77d7872.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7c3dfc5.js",
+    "static/js/runtime-main.d013c359.js",
     "static/js/2.8c7028b3.chunk.js",
-    "static/css/main.d544b949.chunk.css",
+    "static/css/main.792649cf.chunk.css",
     "static/js/main.c62f0e95.chunk.js"
   ]
 }
