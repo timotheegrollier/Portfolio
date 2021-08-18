@@ -20,16 +20,6 @@ export const portfolioData = [
     lien: "https://timotheegrollier.github.io/gamingcampus",
   },
   {
-    id: 3,
-    name: "Timterest",
-    languages: ["php"],
-    languagesIcons: ["fab fa-php"],
-    source: "https://github.com/timotheegrollier/Timterest",
-    info: "Formation à Symfony : App web clone de Pinterest",
-    picture: "./media/timterest1.png",
-    lien: "https://timteresto.alwaysdata.net/",
-  },
-  {
     id: 4,
     name: "PasswordGenerator",
     languages: ["javascript"],
