@@ -79,4 +79,15 @@ export const portfolioData = [
     picture: "./media/Tims.png",
     lien: "https://tims.alwaysdata.net",
   },
+  {
+    id: 10,
+    name: "Audio",
+    languages: ["php"],
+    languagesIcons: ["fab fa-js", "fab fa-php", "fab fa-symfony"],
+    source: "https://github.com/timotheegrollier/audio",
+    info: "Application de streaming et partage de fichers audio / PHP Symfony Docker",
+    picture: "./media/audio.png",
+    lien: "http://audio.cf",
+  },
+
 ];
