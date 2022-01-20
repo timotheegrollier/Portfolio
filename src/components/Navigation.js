@@ -5,6 +5,7 @@ import pic from "../media/timotek.jpg";
 const Navigation = () => {
   // FUNCTIONS
   let theme = localStorage.getItem("theme");
+  let year = new Date().getFullYear()
 
   useEffect(() => {
     let nav = document.getElementById("nav");
@@ -88,7 +89,7 @@ const Navigation = () => {
           </li>
         </ul>
 
-        <div className="signature">Timothée Grollier - 2021</div>
+        <div className="signature">Timothée Grollier - {year}</div>
       </div>
     </div>
   );
