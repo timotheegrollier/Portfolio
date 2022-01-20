@@ -99,5 +99,15 @@ export const portfolioData = [
     picture: "./media/reactCountries.png",
     lien: "https://countriespeople.herokuapp.com/",
   },
+  {
+    id: 12,
+    name: "ShortX",
+    languages: ["php"],
+    languagesIcons: ["fab fa-symfony", "fab fa-php", "fab fa-css3-alt"],
+    source: "https://github.com/timotheegrollier/ShortX",
+    info: "Raccourcisseur d'url développé avec le Framework Symfony",
+    picture: "./media/shortX.png",
+    lien: "http://shortx.cf/",
+  },
 
 ];
