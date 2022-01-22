@@ -1,13 +1,14 @@
 export const portfolioData = [
+
   {
     id: 1,
-    name: "La montagne",
-    languages: ["html", "css"],
-    languagesIcons: ["fab fa-html5", "fab fa-css3-alt"],
-    source: "https://github.com/timotheegrollier/montagne",
-    info: "Simple intégration HTML CSS Responsive",
-    picture: "./media/4545.png",
-    lien: "https://timotheegrollier.github.io/montagne/",
+    name: "Snake",
+    languages: ["javascript"],
+    languagesIcons: ["fab fa-html5", "fab fa-js"],
+    source: "https://github.com/timotheegrollier/Snake",
+    info: "Jeu Snake sur un fichier html entièrement en Javascript avec l'api canvas",
+    picture: "./media/Snake.png",
+    lien: "https://timotheegrollier.github.io/Snake/",
   },
   {
     id: 2,
@@ -18,6 +19,16 @@ export const portfolioData = [
     info: "Simple intégration HTML CSS Responsive",
     picture: "./media/gmx2.png",
     lien: "https://timotheegrollier.github.io/gamingcampus",
+  },
+  {
+    id: 3,
+    name: "Matrix-gradient",
+    languages: ["css","javascript"],
+    languagesIcons: ["fab fa-js", "fab fa-css3-alt"],
+    source: "https://github.com/timotheegrollier/matrix-gradient",
+    info: "Animation à la Matrix avec dégradé de couleur en JS orienté objet",
+    picture: "./media/matrix-gradient.png",
+    lien: "https://timotheegrollier.github.io/matrix-gradient",
   },
   {
     id: 4,
@@ -32,7 +43,7 @@ export const portfolioData = [
   {
     id: 5,
     name: "Ganesh",
-    languages: ["javascript", "css"],
+    languages: ["css"],
     languagesIcons: ["fab fa-html5", "fab fa-js", "fab fa-css3-alt"],
     source: "https://github.com/timotheegrollier/ganesh",
     info: "Création et intégration d'une homepage en MobileFirst",
@@ -63,7 +74,7 @@ export const portfolioData = [
     id: 8,
     name: "YoutubeStorage",
     languages: ["php"],
-    languagesIcons: ["fab fa-react", "fab fa-js", "fab fa-css3-alt"],
+    languagesIcons: ["fab fa-symfony", "fab fa-js", "fab fa-css3-alt"],
     source: "https://github.com/timotheegrollier/YoutubeParser",
     info: "Récupère des vidéos de youtube pour les afficher sur la page ",
     picture: "./media/ytparse.png",
