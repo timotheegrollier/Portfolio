@@ -2,13 +2,13 @@ export const portfolioData = [
 
   {
     id: 1,
-    name: "Snake",
+    name: "Wolfy",
     languages: ["javascript"],
     languagesIcons: ["fab fa-html5", "fab fa-js"],
-    source: "https://github.com/timotheegrollier/Snake",
+    source: "https://github.com/timotheegrollier/Wolfy",
     info: "Jeu Snake sur un fichier html entièrement en Javascript avec l'api canvas",
     picture: "./media/Snake.png",
-    lien: "https://timotheegrollier.github.io/Snake/",
+    lien: "https://timotheegrollier.github.io/Wolfy/",
   },
   {
     id: 2,
