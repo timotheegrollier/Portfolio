@@ -81,16 +81,6 @@ export const portfolioData = [
     lien: "https://youtube-storage.herokuapp.com/",
   },
   {
-    id: 9,
-    name: "Tims",
-    languages: ["php", "javascript"],
-    languagesIcons: ["fab fa-js", "fab fa-php"],
-    source: "https://github.com/timotheegrollier/FreeTchat",
-    info: "Tchat responsive en AJAX/PHP",
-    picture: "./media/Tims.png",
-    lien: "https://timstchat.alwaysdata.net",
-  },
-  {
     id: 10,
     name: "Audio",
     languages: ["php"],
