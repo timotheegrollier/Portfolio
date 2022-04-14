@@ -7,7 +7,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-html5", "fab fa-js"],
     source: "https://github.com/timotheegrollier/Wolfy",
     info: "Jeu Snake sur un fichier html entièrement en Javascript avec l'api canvas",
-    picture: "./media/Snake.png",
+    picture: "./media/Wolfy.png",
     lien: "https://timotheegrollier.github.io/Wolfy/",
   },
   {
