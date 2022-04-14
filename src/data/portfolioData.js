@@ -97,7 +97,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-css3-alt"],
     source: "https://github.com/timotheegrollier/countriespeople",
     info: "Appel l'api RestCoutries et affiche les données, la page news appel un backend en Express et permet un CRUD",
-    picture: "./media/reactCountries.png",
+    picture: "./media/ReactCountries.png",
     lien: "https://countriespeople.herokuapp.com/",
   },
   {
