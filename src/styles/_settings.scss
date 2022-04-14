@@ -4,16 +4,19 @@ $font-1: "Nova Round", cursive;
 $font-2: "Dosis", sans-serif;
 $font-3: "Josefin Sans", serif;
 
-$color-1: #777fad;
-$color-2: #9597be;
+$color-1: rgb(78, 89, 148);
+$color-2: #a8a9cb;
 $color-3: #cdc7d5;
 
 $white: #f1f0f6;
-$black: #333;
+$black: #333333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
 $minHeight: 99vh;
+
+
+
 
 @mixin verticalCenter {
   display: flex;
@@ -109,4 +112,9 @@ a {
   p {
     color: white !important;
   }
+}
+
+
+.fa-github {
+  color:black
 }

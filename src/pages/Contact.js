@@ -11,15 +11,18 @@ const Contact = () => {
     let header = document.querySelector(".header");
     let content = document.querySelector(".contactContent");
     let network = document.querySelectorAll(".socialBlock");
+    let icons = document.querySelectorAll(".contact-fab")
     if(theme === "settingsBlock dark-theme"){
       contact.classList.add("modal");
-      contact.style.color = "white"
       header.classList.add('dark-theme');
       content.classList.add("dark-theme");
       network[0].classList.add("modal");
       network[1].classList.add("modal");
+      icons.forEach(el=>{
+        el.style.color = "#a8a9cb"
+      })
       // Je modifie une variable css pour atteindre le ::after et faire disparaitre le svg
-      header.style.setProperty('--none',"none")
+      header.style.setProperty('--shape',"url(../../media/shape-dark.svg) no-repeat center / cover")
     }
   })
   
@@ -55,8 +58,8 @@ const Contact = () => {
 </div>
 <div className="socialNetwork">
   <ul>
-    <a className="socialBlock" href="https://www.linkedin.com/in/timoth%C3%A9e-grollier-dev/" target="_blank" rel="noopener noreferrer"><h4>LinkedIn</h4><i className="fab fa-linkedin"></i></a>
-    <a className="socialBlock" href="https://github.com/timotheegrollier" target="_blank" rel="noopener noreferrer"><h4>Github</h4><i className="fab fa-github"></i></a>
+    <a className="socialBlock" href="https://www.linkedin.com/in/timoth%C3%A9e-grollier-dev/" target="_blank" rel="noopener noreferrer"><h4>LinkedIn</h4><i className="fab fa-linkedin contact-fab"></i></a>
+    <a className="socialBlock" href="https://github.com/timotheegrollier" target="_blank" rel="noopener noreferrer"><h4>Github</h4><i className="fab fa-github contact-fab"></i></a>
   </ul>
 </div>
       </div>

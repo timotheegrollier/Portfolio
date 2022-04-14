@@ -3,9 +3,6 @@ import Navigation from '../components/Navigation';
 
 const Settings = () => {
 
-    
-    //   FUNCTIONS 
-    // ref comme queryselector mais pour react chelou
 
     
     const block = React.createRef();

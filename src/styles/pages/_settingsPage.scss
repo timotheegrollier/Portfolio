@@ -4,7 +4,7 @@
     .settingsBlock {
         width: 100%;
         min-height: $minHeight;
-        background: linear-gradient(115deg, $color-1 20%, transparent 100%);
+        background: linear-gradient(165deg, $color-1 60%, $black 100%);
         border-radius: $borderRadius;
         display: grid;
         grid-template-rows: 10% 60% 30%;
@@ -29,9 +29,10 @@
             .lightTheme {
                 width: 40px;
                 height: 40px;
-                background: $color-3;
+                background: rgb(27, 39, 105);
                 border-radius: 50%;
                 cursor: pointer;
+                border: 3px solid rgba(255, 255, 255, 0.868);
             }
             .darkTheme {
                 background: $black;
@@ -39,6 +40,9 @@
                 height: 40px;
                 border-radius: 50%;
                 cursor: pointer;
+                border: 3px solid rgba(255, 255, 255, 0.868);
+
+
             }
         }
     }

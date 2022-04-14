@@ -1,5 +1,6 @@
 .knowledges {
   display: flex;
+
   .knowledgesContent {
     min-height: $minHeight;
     width: 100%;
@@ -16,12 +17,12 @@
     .experience,
     .otherSkills,
     .hobbies {
-      background: $color-2;
+      background: $color-1;
       border-radius: $borderRadius;
       padding: 0.8rem;
     }
     h3 {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       margin-bottom: 1rem;
       font-family: $font-2;
       color: $color-3;
@@ -75,7 +76,7 @@
         padding-top: 0.5rem;
 
         li {
-          color: $black;
+          color: $color-2;
         }
         .progressBar {
           height: 0.4rem;
@@ -112,16 +113,18 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 10%;
+  color: $color-2;
+
 
   h3 {
     grid-area: 1;
   }
   h4 {
     font-size: 1.1rem;
-    color: $black;
+    color: $color-3;
   }
   h5 {
-    color: $color-3;
+    color: $color-2;
     padding: 0.5rem 0 0.5rem 1rem;
   }
   ul {
@@ -151,6 +154,7 @@
 .otherSkills {
   grid-area: O;
   margin-right: 0.5rem;
+  color: $color-2;
 
   .list {
     display: flex;
@@ -173,6 +177,8 @@
 .hobbies {
   grid-area: H;
   padding-left: 1.5rem;
+  color: $color-2;
+
 
   ul {
     height: 70%;
