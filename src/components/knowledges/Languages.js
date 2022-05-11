@@ -15,16 +15,17 @@ class Languages extends Component {
       { id: 3, value: "Symfony", xp: 1 },
       { id: 4, value: "Bootstrap", xp: 1.4 },
     ],
+    theme : localStorage.getItem('theme')
   };
 
   render() {
     // State cache de fonctions rcc
     // Transform le this.state.languages en languages
 
-    let { languages, frameworks } = this.state;
+    let { languages, frameworks, theme} = this.state;
 
     return (
-      <div className="languagesFrameworks" id="lang">
+      <div className={theme === "settingsBlock dark-theme" ? "languagesFrameworks dark-theme" : "languagesFrameworks"} id="lang">
         <ProgressBar
           languages={languages}
           className="languagesDisplay"

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
@@ -6,18 +6,13 @@ const Home = () => {
 
   let theme = localStorage.getItem("theme");
 
-  useEffect(() => {
-    let home = document.getElementById("home");
-    if (theme === "settingsBlock dark-theme") {
-      home.classList.add("dark-theme");
-    }
-  });
+
 
   //
   return (
     <div className="home">
       <Navigation />
-      <div className="homeContent" id="home">
+      <div className={theme === "settingsBlock dark-theme" ? "homeContent dark-theme" : "homeContent"} id="home">
         <div className="content">
           <h1>Timothée Grollier</h1>
           <h2>Développeur Full-Stack</h2>

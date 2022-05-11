@@ -1,8 +1,11 @@
 import React from "react";
 
 const Experience = () => {
+
+  let theme = localStorage.getItem("theme");
+
   return (
-    <div className="experience" id="xp">
+    <div className={theme === "settingsBlock dark-theme" ? "experience dark-theme" : "experience"} id="xp">
       <h3>Expérience</h3>
       <div className="exp1">
         <h4>Stage Developpeur Web agence: "NOUS:Ouvert,Utile et Simple" </h4>

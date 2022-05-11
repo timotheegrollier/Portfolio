@@ -21,7 +21,6 @@
       position: relative;
       background: $color-1;
       height: 340px;
-      --shape: url(../../media/shape.svg) no-repeat center / cover;
       &:before {
         content: "";
         width: 100%;
@@ -36,7 +35,7 @@
         height: 100%;
         position: absolute;
         top: 30px;
-        background:var(--shape) ;
+        background:var(--shape, url(../../media/shape.svg) no-repeat center / cover) ;
       }
     }
     .contactBox {

@@ -4,6 +4,8 @@ import Project from "./Project";
 
 class ProjectList extends Component {
   state = {
+    theme : localStorage.getItem("theme"),
+
     projects: portfolioData,
     radios: [
       { id: 1, value: "javascript" },
@@ -24,7 +26,7 @@ class ProjectList extends Component {
 
     return (
       <div className="portfolioContent">
-        <ul className="radioDisplay">
+        <ul className={this.state.theme === "settingsBlock dark-theme" ? "radioDisplay modal" : "radioDisplay"}>
           {radios.map((radio) => {
             return (
               <li key={radio.id}>

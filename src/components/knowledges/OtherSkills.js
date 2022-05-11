@@ -1,8 +1,10 @@
 import React from "react";
 
 const OtherSkills = () => {
+  let theme = localStorage.getItem("theme");
+
   return (
-    <div className="otherSkills" id="oth">
+    <div className={theme === "settingsBlock dark-theme" ? "otherSkills dark-theme" : "otherSkills"} id="oth">
       <h3>Autres compétences</h3>
       <div className="list">
         <ul>

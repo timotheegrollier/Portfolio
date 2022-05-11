@@ -1,8 +1,10 @@
 import React from "react";
 
 const Hobbies = () => {
+  let theme = localStorage.getItem("theme");
+
   return (
-    <div className="hobbies" id="hob">
+    <div className={theme === "settingsBlock dark-theme" ? "hobbies dark-theme" : "hobbies"} id="hob">
       <h3>Intérêts</h3>
       <ul>
         <li className="hobby">

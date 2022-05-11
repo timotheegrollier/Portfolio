@@ -13,13 +13,6 @@ const Settings = () => {
         theme = localStorage.getItem("theme")
     }
 
-    // Vérifie le theme en localStorage et le change si
-    useEffect(()=>{
-        if (theme === "settingsBlock dark-theme"){
-            block.current.classList.add("dark-theme")
-        }
-    })
-
     // DarkMODE
       const setDarkTheme = (e)=>{
         e.preventDefault();
@@ -44,7 +37,7 @@ const Settings = () => {
     return (
         <div className="settings">
             <Navigation id="nav" />
-         <div className="settingsBlock" ref={block} >
+         <div className={theme === "settingsBlock dark-theme" ? "settingsBlock dark-theme" : "settingsBlock"} ref={block} >
              <h3>Settings</h3>
              <div className= "changeTheme">
                  <h4>Change theme</h4>
